@@ -3,7 +3,7 @@ import time
 from config import WIFI_SSID, WIFI_PASSWORD
 from logic import handle_logic
 from ntp_sync import sync_time
-import urequests
+import machine
 
 
 # Conectare WiFi
